@@ -1,0 +1,95 @@
+# Header
+nav:
+  # Home: /index
+  publications:
+    path: ./publications
+    icon: mingcute:document-2-fill
+    name: Publications
+  posts:
+    path: ./archives
+    icon: mingcute:inbox-fill
+    name: Posts
+  # Projects: /projects
+  about:
+    path: ./about
+    icon: mingcute:user-info-fill
+    name: About Me
+  categories:
+    path: ./categories
+    icon: mingcute:classify-2-fill
+    name: Categories
+    show_name: false
+  tags:
+    path: ./tags
+    icon: mingcute:tag-fill
+    name: Tags
+    text: Tags
+    show_name: false
+  home:
+    path: ./index
+    icon: mingcute:home-2-fill
+    name: Home
+    show_name: false
+
+  # To add a new page, use hexo new page, then add another entry below.
+  # Each entry MUST have a path. In addition, it will render icon and/or text
+  # if they are provided. It will be an empty button if none of these are 
+  # provided.
+
+email: samshin3910@snu.ac.kr
+my_location: Seoul, South Korea
+cv_path: /pdf/YeonsangShin_CV_241115.pdf
+cv_last_update_date: Nov, 2024
+show_featured_posts: true
+year_align_center: false
+
+# favicon
+favicon: /favi.svg
+
+# logo
+portrait: /images/yeonsang.jpeg  # Your profile image here
+show_profile_image: true
+
+# links
+links:
+  LinkedIn:
+    link: https://www.linkedin.com/in/yeonsangshin/
+    icon: mingcute:linkedin-fill
+  Github:
+    link: https://www.github.com/yxxshin
+    icon: mingcute:github-fill
+  Instagram:
+    link: https://www.instagram.com/quiltedbyshin
+    icon: mingcute:ins-fill
+  # You can add more links below using the format above.
+
+# analytics
+google_analytics:
+baidu_analytics:
+
+# mathjax
+fancybox: true
+
+# mathjax
+mathjax: true
+
+# echarts
+echarts: true
+
+# busuanzi
+busuanzi: true
+
+# mermaid
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
+
+# giscus
+giscus:
+  enable:
+  repo:
+  repo_id:
+  category:
+  category_id:
+  mapping:
