@@ -14,17 +14,17 @@ nav:
     path: ./about
     icon: mingcute:user-info-fill
     name: About Me
-  categories:
-    path: ./categories
-    icon: mingcute:classify-2-fill
-    name: Categories
-    show_name: false
-  tags:
-    path: ./tags
-    icon: mingcute:tag-fill
-    name: Tags
-    text: Tags
-    show_name: false
+  # categories:
+  #   path: ./categories
+  #   icon: mingcute:classify-2-fill
+  #   name: Categories
+  #   show_name: false
+  # tags:
+  #   path: ./tags
+  #   icon: mingcute:tag-fill
+  #   name: Tags
+  #   text: Tags
+  #   show_name: false
   home:
     path: ./index
     icon: mingcute:home-2-fill
