@@ -1,14 +1,14 @@
 # Header
 nav:
   # Home: /index
-  publications:
-    path: ./publications
-    icon: mingcute:document-2-fill
-    name: Publications
   posts:
     path: ./archives
     icon: mingcute:inbox-fill
-    name: Posts
+    name: Papers
+  publications:
+    path: ./publications
+    icon: mingcute:document-2-fill
+    name: Publication List
   # Projects: /projects
   about:
     path: ./about

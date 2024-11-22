@@ -9,4 +9,8 @@ tags:
 - arxiv
 ---
 
-Hi
+**TL;DR**: The paper proposes "ST-Representation", a structured text format that enables precise control over text and animated elements in video layouts by encoding them hierarchically, demonstrated through their VAKER video advertisement generation system.
+
+<!-- more -->
+
+![Teaser](vaker_thumbnail.png)
