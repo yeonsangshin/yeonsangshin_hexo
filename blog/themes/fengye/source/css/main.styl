@@ -372,3 +372,24 @@ figure.highlight
   font-size: 1.6rem;
   color: var(--color-text-a);
 }
+
+.post-container
+  @media screen and (max-width: 768px)
+    img
+      max-width: 160px !important  // Approximately same as max-w-48
+      width: auto
+      height: 120px
+      object-fit: cover
+      align-self: center
+      
+  // Keep aspect ratio consistent
+  img
+    aspect-ratio: 4/3
+    object-fit: cover
+
+// If you want to keep the hover effects
+@media (hover: hover)
+  .post-container img:hover
+    transform: scale(1.05)
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1)
+

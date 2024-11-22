@@ -117,7 +117,7 @@ theme_config:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github-yeonsangshin.com:yeonsangshin/yeonsangshin.github.io.git
+  repo: git@github.com-yeonsangshin:yeonsangshin/yeonsangshin.github.io.git
   branch: main
 
 markdown:

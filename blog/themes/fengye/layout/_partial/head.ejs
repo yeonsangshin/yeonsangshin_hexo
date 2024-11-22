@@ -1,7 +1,11 @@
 <meta charset="UTF-8">
 <%- partial('_plugins/google-analytics') %>
 <%- partial('_plugins/baidu-analytics') %>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!-- Yeonsang: for iPhone support -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <% if(config.author){ %>
   <meta name="author" content="<%- config.author %>">
@@ -37,7 +41,8 @@ if (is_archive()) {
 <link rel="icon" href="<%- url_for(theme.favicon) %>">
 <% } %>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<!-- Yeonsang: Updated to HTTPS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
@@ -45,6 +50,10 @@ if (is_archive()) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Yeonsang: Add support for iOS safe areas -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <%- css('css/main') %>
 <%- css('css/search') %>
@@ -55,4 +64,21 @@ if (is_archive()) {
 <%- partial('_plugins/tailwindcss') %>
 <%- partial('_plugins/theme') %>
 
-
+<!-- Yeonsang: For iPhone Safari -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Prevent iOS double-tap zoom
+    document.addEventListener('touchstart', function(e) {
+      if (e.touches.length > 1) { e.preventDefault(); }
+    }, { passive: false });
+    
+    // Force layout recalculation on iOS
+    window.addEventListener('resize', function() {
+      if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+        window.setTimeout(function() {
+          document.activeElement.scrollIntoViewIfNeeded();
+        }, 0);
+      }
+    });
+  });
+  </script>
