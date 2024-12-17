@@ -10,10 +10,10 @@ nav:
     icon: mingcute:document-2-fill
     name: Publication List
   # Projects: /projects
-  about:
-    path: ./about
-    icon: mingcute:user-info-fill
-    name: About Me
+  # about:
+  #   path: ./about
+  #   icon: mingcute:user-info-fill
+  #   name: About Me
   # categories:
   #   path: ./categories
   #   icon: mingcute:classify-2-fill
@@ -38,7 +38,7 @@ nav:
 
 email: samshin3910@snu.ac.kr
 my_location: Seoul, South Korea
-cv_path: /pdf/YeonsangShin_CV_241202.pdf
+cv_path: /pdf/YeonsangShin_CV_241217.pdf
 cv_last_update_date: Dec, 2024
 show_featured_posts: true
 year_align_center: false
