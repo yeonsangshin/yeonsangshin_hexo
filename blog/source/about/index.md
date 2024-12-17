@@ -19,4 +19,4 @@ I'm an undergraduate student at [Seoul National University, Dept. of Electrical 
 
 My research journey in Computer Vision has evolved from working with unconventional visual representations (SVG, Layouts) to 3D Computer Vision. Now, I"m interested in Computational Imaging, including Computer Graphics, AR/VR, and cameras.
 
-[My resume (last updated: Dec, 2024)](/pdf/YeonsangShin_CV_241202.pdf)
+[My resume (last updated: Dec, 2024)](/pdf/YeonsangShin_CV_241217.pdf)
