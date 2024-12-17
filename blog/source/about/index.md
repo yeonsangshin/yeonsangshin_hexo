@@ -15,6 +15,8 @@ Hello !
 
 My name is Yeonsang Shin (신연상).
 
-I'm an undergraduate student at [Seoul National University, Dept. of Electrical and Computer Engineering](https://ece.snu.ac.kr/en), currently a research intern at [KRAFTON](https://www.krafton.ai/en/). My research interests are about 3D Computer Vision, Computational Imaging, Invserse Problems, and Diffusion Models.
+I'm an undergraduate student at [Seoul National University, Dept. of Electrical and Computer Engineering](https://ece.snu.ac.kr/en), a research intern at [KRAFTON](https://www.krafton.ai/en/) until Dec 2024.
+
+My research journey in Computer Vision has evolved from working with unconventional visual representations (SVG, Layouts) to 3D Computer Vision. Now, I"m interested in Computational Imaging, including Computer Graphics, AR/VR, and cameras.
 
 [My resume (last updated: Dec, 2024)](/pdf/YeonsangShin_CV_241202.pdf)
