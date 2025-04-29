@@ -18,10 +18,10 @@
   <meta name="twitter:description" content="Generating Animated Layouts as Structured Text Representations">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/teaser.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- <meta name="twitter:card" content="summary_large_image"> -->
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
 
   <title>Generating Animated Layouts as Structured Text Representations</title>
@@ -56,9 +56,9 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://yeonsangshin.github.io/" target="_blank">Yeonsang Shin</a><sup>*,1</sup>,</span>
+                <a href="https://yeonsangshin.github.io/" target="_blank">Yeonsang Shin</a><sup>1*</sup>,</span>
                 <span class="author-block">
-                  <a href="https://jjihwan.github.io/" target="_blank">Jihwan Kim</a><sup>*,1</sup>,</span>
+                  <a href="https://jjihwan.github.io/" target="_blank">Jihwan Kim</a><sup>1*</sup>,</span>
                   <span class="author-block">
                     <a href="https://www.linkedin.com/in/youminsong/" target="_blank">Yumin Song</a><sup>1</sup>,</span>
                     <span class="author-block">
@@ -71,24 +71,37 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Seoul National University, <sup>2</sup>SK telecom<br><i>under review</i></span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>Seoul National University, <sup>2</sup>SK telecom</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal contribution</small></span>
+                    <span class="conf"><small><br><b>CVPR 2025 Workshop on AI for Content Creation (AI4CC)</b></small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
+
+                        <!-- ArXiv abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv (WIP)</span>
+                    </a>
+                  </span>
+
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="static/pdfs/Vaker.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper (WIP)</span>
+                        <span>Paper (PDF)</span>
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- Supplementary PDF link
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -97,29 +110,19 @@
                       </span>
                       <span>Supplementary (WIP)</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <!-- <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                  <span class="link-block">
+                    <a href="https://yeonsangshin.github.io/projects/Vaker" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code (WIP)</span>
+                    <span>Code (Soon)</span>
                   </a>
-                </span> -->
+                </span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv (WIP)</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -133,13 +136,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/teaser.png" alt="Teaser image"/>
       <h2 class="subtitle has-text-centered">
-        TODO
+        <b><br>Given text prompts</b> that specify the content and style, <br> VAKER creates <b>animated layouts for video advertisements.</b>
       </h2>
     </div>
   </div>
@@ -154,8 +153,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Despite the remarkable progress in text-to-video models, achieving precise control over text elements and animated graphics remains a significant challenge, especially in applications such as video advertisements. To address this limitation, we introduce Animated Layout Generation, the first-ever approach to extend traditional static graphic layouts by incorporating temporal dynamics. We propose a Structured Text Representation, enabling fine-grained control over video generation through hierarchically organized visual elements. To demonstrate the effectiveness of our approach, we present VAKER (Video Ad maKER), a text-to-video advertisement generation pipeline that combines a three-stage generation process with Unstructured Text Reasoning for seamless integration with LLMs. VAKER pioneers fully automates video advertisement generation by incorporating dynamic layout trajectories for objects and graphics throughout the specific video frames. Through extensive evaluations, we demonstrate that VAKER significantly outperforms existing methods in generating video advertisements.
-          </p>
+            Despite the remarkable progress in text-to-video models, achieving precise control over text elements and animated graphics remains a significant challenge, especially in applications such as video advertisements. To address this limitation, we introduce Animated Layout Generation, a novel approach to extend static graphic layouts with temporal dynamics. We propose a Structured Text Representation for fine-grained video control through hierarchical visual elements. <br> <br> To demonstrate the effectiveness of our approach, we present VAKER (Video Ad maKER), a text-to-video advertisement generation pipeline that combines a three-stage generation process with Unstructured Text Reasoning for seamless integration with LLMs. VAKER fully automates video advertisement generation by incorporating dynamic layout trajectories for objects and graphics across specific video frames. Through extensive evaluations, we demonstrate that VAKER significantly outperforms existing methods in generating video advertisements. </p>
         </div>
       </div>
     </div>
@@ -232,26 +230,54 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Qualitative Results</h2>
+      <h2 class="title is-3">Results</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <source src="static/videos/vaker1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <source src="static/videos/vaker2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
+            <source src="static/videos/vaker3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video4">
+          <video poster="" id="video4" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/vaker4.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video5">
+          <video poster="" id="video5" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/vaker5.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video6">
+          <video poster="" id="video6" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/vaker6.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video7">
+          <video poster="" id="video7" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/vaker7.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -261,6 +287,40 @@
 </section>
 <!-- End video carousel -->
 
+
+<!-- Model Overview -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Overview</h2>
+      <div style="text-align : center;">
+      <img src="static/images/model.png" alt="Model Overview" width="80%" height="80%"/>
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          VAKER transforms text prompts into video ads through a sequential pipeline where specialized LoRA-adapted LLMs generate Structured Text representations for each component (Banner, Mainground, and Animation). These components work together by converting user inputs into detailed specifications that define layout, visual elements, and motion sequences for cohesive, programmatically-generated video advertisements.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Model Overview -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Dataset Construction Pipeline</h2>
+      <div style="text-align : center;">
+      <img src="static/images/dataset.png" alt="Dataset Construction Pipeline" width="90%" height="90%"/>
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          Given a video advertisement: (1) Extracts the last frame, (2) Detects and classifies objects using fine-tuned detection models, (3) Generates Banner ST and Mainground ST from the spatial layout, (4) Tracks object movements using tracking models to generate Animation ST, (5) Uses template-based prompting with LLMs to convert these ST-Representations into UT Reasonings and natural language prompts. 
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Paper poster -->
 
@@ -281,15 +341,15 @@
 <!--End paper poster -->
 
 
-<!--BibTex citation -->
-<!-- 
-  <section class="section" id="BibTeX">
+<!-- BibTex citation -->
+
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
--->
+</section> -->
+
 <!--End BibTex citation -->
 
 
@@ -300,9 +360,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page. Thank you!
           </p>
 
         </div>
