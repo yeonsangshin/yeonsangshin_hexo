@@ -8,9 +8,9 @@ For each details, visit [Papers](/archives)
 List of all my publications:
 
 **2025**:
-- **<u>Y. Shin</u>**\*, I. Kim\*, B. Han. **Autoregressive Modeling and Generation of Sequences with Joint Discrete and Continuous Spaces** [[PDF(WIP)]() / [Project Page(WIP)]()]
+- <u>Yeonsang Shin</u>\*, Insoo Kim\*, Bongkeun Kim, Keonwoo Bae and Bohyung Han. **Autoregressive Modeling and Generation of Sequences with Joint Discrete and Continuous Spaces** [[PDF(WIP)]() / [Project Page(WIP)]()]
 *under review*
 
 **2024**:
-- **<u>Y. Shin</u>**\*, J. Kim\*, Y. Song, K. Lee, H. Chung, T. Na. **Generating Animated Layouts as Structured Text Representations** [[PDF](pdfs/Vaker.pdf) / [Project Page](https://yeonsangshin.github.io/projects/Vaker)]
+- <u>Yeonsang Shin</u>\*, Jihwan Kim\*, Yumin Song, Kyungseung Lee, Hyunhee Chung and Taeyoung Na. **Generating Animated Layouts as Structured Text Representations** [[PDF](pdfs/Vaker.pdf) / [Project Page](https://yeonsangshin.github.io/projects/Vaker)]
 *<span style="color:red">CVPR 2025 Workshop</span> on AI for Content Creation (AI4CC)*
