@@ -1,14 +1,14 @@
 # Header
 nav:
   # Home: /index
-  posts:
-    path: ./archives
-    icon: mingcute:inbox-fill
-    name: Papers
-  publications:
-    path: ./publications
-    icon: mingcute:document-2-fill
-    name: Publication List
+  # posts:
+  #   path: ./archives
+  #   icon: mingcute:inbox-fill
+  #   name: Papers
+  # publications:
+  #   path: ./publications
+  #   icon: mingcute:document-2-fill
+  #   name: Publication List
   # Projects: /projects
   # about:
   #   path: ./about
@@ -36,11 +36,11 @@ nav:
   # if they are provided. It will be an empty button if none of these are 
   # provided.
 
-email: samshin3910@snu.ac.kr
+email: ys.shin@stably.kr
 my_location: Seoul, South Korea
-cv_path: /pdf/YeonsangShin_CV_250525.pdf
-cv_last_update_date: May, 2025
-show_featured_posts: true
+cv_path: /pdf/YeonsangShin_CV_260305.pdf
+cv_last_update_date: Mar, 2026
+show_featured_posts: false
 year_align_center: false
 
 # favicon
@@ -55,12 +55,15 @@ links:
   LinkedIn:
     link: https://www.linkedin.com/in/yeonsangshin/
     icon: mingcute:linkedin-fill
-  Github:
-    link: https://www.github.com/yxxshin
-    icon: mingcute:github-fill
   Instagram:
     link: https://www.instagram.com/quiltedbyshin
     icon: mingcute:ins-fill
+  X:
+    link: https://x.com/yeonsang_shin
+    icon: mingcute:social-x-fill
+  # Github:
+  #   link: https://www.github.com/yxxshin
+  #   icon: mingcute:github-fill
   # You can add more links below using the format above.
 
 # analytics
