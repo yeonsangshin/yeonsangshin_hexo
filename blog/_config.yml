@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Yeonsang Shin"
+title: "Yeonsang (Sam) Shin"
 subtitle: "신연상"
 meta_description: "Yeonsang Shin's personal website"
 description: >
-  I am an M.S. Student (on leave) at the <b><a href="https://vclab.kaist.ac.kr/index.html">Visual Computing Lab, KAIST</a></b>, supervised by <b><a href="https://vclab.kaist.ac.kr/minhkim/index.html">Min H. Kim</a></b>. I've been fortunate to work with amazing professors <i>Bohyung Han</i>, <i>Sungroh Yoon</i>, <i>Jongho Lee</i>, and <i>Kangwook Lee</i>.<br><br>I am currently a co-founder at <b>Stably</b>, a startup building autonomous drone solutions for unmanned nighttime patrol at construction sites. Our work sits at the intersection of drone systems and computer vision — targeting GPS-free environments demands robust Visual SLAM pipelines that remain reliable in tough, obstacle-dense environments such as shipyards, where cranes, wires, and complex structures push the limits of conventional sensing.<br><br>At Stably, we believe drones should be absolutely trustworthy, intuitively familiar, and technologically excellent, endlessly expanding the horizons of what autonomous systems can do in the real world.
+  I am an M.S. Student (on leave) at the <b><a href="https://vclab.kaist.ac.kr/index.html">Visual Computing Lab, KAIST</a></b>, supervised by <b><a href="https://vclab.kaist.ac.kr/minhkim/index.html">Min H. Kim</a></b>. I've been fortunate to work with amazing professors <i>Bohyung Han</i>, <i>Sungroh Yoon</i>, <i>Jongho Lee</i>, and <i>Kangwook Lee</i>.<br><br>I am currently a Co-Founder & CEO at <b>Stably</b>. Stably builds autonomous drone solutions, especially for industrial sites. We believe drones should be absolutely trustworthy and technologically excellent, expanding the horizons of what autonomous systems can do in the real world.
 keywords:
   - "Yeonsang Shin"
   - "신연상"
-author: Yeonsang Shin
+author: Yeonsang (Sam) Shin
 language: en
 timezone: ''
 
@@ -116,7 +116,7 @@ theme_config:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/yeonsangshin/yeonsangshin.github.io.git
+  repo: git@github-yeonsangshin:yeonsangshin/yeonsangshin.github.io.git
   branch: main
 
 markdown:
