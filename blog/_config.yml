@@ -7,7 +7,7 @@ title: "Yeonsang (Sam) Shin"
 subtitle: "신연상"
 meta_description: "Yeonsang Shin's personal website"
 description: >
-  I am an M.S. Student (on leave) at the <b><a href="https://vclab.kaist.ac.kr/index.html">Visual Computing Lab, KAIST</a></b>, supervised by <b><a href="https://vclab.kaist.ac.kr/minhkim/index.html">Min H. Kim</a></b>. I've been fortunate to work with amazing professors <i>Bohyung Han</i>, <i>Sungroh Yoon</i>, <i>Jongho Lee</i>, and <i>Kangwook Lee</i>.<br><br>I am currently a Co-Founder & CEO at <b>Stably</b>. Stably builds autonomous drone solutions, especially for industrial sites. We believe drones should be absolutely trustworthy and technologically excellent, expanding the horizons of what autonomous systems can do in the real world.
+  I am an M.S. Student (on leave) at the <b><a href="https://vclab.kaist.ac.kr/index.html">Visual Computing Lab, KAIST</a></b>, supervised by <b><a href="https://vclab.kaist.ac.kr/minhkim/index.html">Min H. Kim</a></b>. I've been fortunate to work with amazing professors <i>Bohyung Han</i>, <i>Sungroh Yoon</i>, <i>Jongho Lee</i>, and <i>Kangwook Lee</i>.<br><br>I am currently a Co-Founder & CEO at <b><a href="https://www.stably.kr">Stably</a></b>. Stably builds autonomous drone solutions, especially for industrial sites. We believe drones should be absolutely trustworthy and technologically excellent, expanding the horizons of what autonomous systems can do in the real world.
 keywords:
   - "Yeonsang Shin"
   - "신연상"
@@ -34,7 +34,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - 'projects/Vaker/**/*'
-  - 'projects/AGDC/**/*'
+  - 'projects/IPAM/**/*'
 
 # Writing
 new_post_name: :title.md # File name of new posts
